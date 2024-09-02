@@ -1,0 +1,113 @@
+/* 
+
+**color palette**
+
+- #FCA424
+- #0DD39D
+- #1A1A1A
+- #CDCDCD
+- #FEFEFE 
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100vh;
+    max-width: 160rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.orange-circle {
+    height: 50rem;
+    width: 55rem;
+    background-color: #fff;
+    border: 5rem solid #fca424;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: -15%;
+}
+
+.pink-circle {
+    height: 1.6rem;
+    width: 1.6em;
+    border: 0.4rem solid pink;
+    border-radius: 35%;
+    position: absolute;
+    top: 50%;    
+    left: 5%;
+    transform: rotate(45deg);
+}
+
+.pink-circle-btm {
+    height: 2rem;
+    width: 2em;
+    border: 0.5rem solid pink;
+    border-radius: 25%;
+    position: absolute;
+    bottom: 5%;    
+    left: 50%;
+    transform: rotate(45deg);
+}
+
+.aqua-square {
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: aqua;
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
+}
+
+.blue-ring {
+    height: 2rem;
+    width: 2rem;
+    border: 0.4rem solid #249bfc;
+    position: absolute;
+    left: 60%;
+    top: 3%;
+    border-radius: 50%;
+}
+
+.light-org-square {
+    height: 1.8rem;
+    width: 1.8rem;
+    position: absolute;
+    right: 4%;
+    top: 8%;
+    background-color: rgba(255, 166, 0, 0.432);
+    transform: rotate(-20deg);
+}
+
+.gray-square {
+    height: 1.8rem;
+    width: 1.8rem;
+    position: absolute;
+    right: 4%;
+    bottom: 40%;
+    border: 0.4rem solid rgba(121, 117, 111, 0.432);
+    transform: rotate(20deg);
+}
+
+.gray-rect {
+    height: 25rem;
+    width: 50rem;
+    border: 2rem solid rgba(187, 182, 174, 0.432);
+    position: absolute;
+    bottom: -5%;
+    right: -10%;
+    transform: rotate(30deg);
+}
+
