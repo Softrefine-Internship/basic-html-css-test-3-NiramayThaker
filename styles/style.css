@@ -1,10 +1,11 @@
 .main-container {
     width: 120rem;
-    height: 90vh;
-    background-color: #fff  ;
+    height: 140vh;
+    background-color: #fff;
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     box-shadow: rgba(50, 50, 93, 0.13) 1rem 1rem 3rem -5px, rgba(0, 0, 0, 0.3) 0px 8px 20px -8px;
 }
 
@@ -130,9 +131,8 @@
 .title-info {
     width: 100%;
     height: 21rem;
-    /* background-color: rgba(255, 0, 0, 0.295); */
     position: absolute;
-    top: 7%;
+    top: 6.8rem;
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -141,11 +141,11 @@
 .plan-info {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 1.4rem;
 }
 
 .greet-txt {
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #fff ;
 }
 
@@ -202,7 +202,7 @@
     border: 0.4rem solid #FCA424;
     background-color: transparent;
     border-top-color: rgb(167, 151, 151);
-    transform: rotate(50deg);
+    transform: rotate(45deg);
 }
 
 .prog-title {
@@ -244,13 +244,13 @@
 }
 
 .profile-img {
-    margin-top: 5rem;
+    margin-top: 6.8rem;
     margin-left: 3rem;
 }
 
 .main-profile-pht {
-    height: 23rem;
-    width: 23rem;
+    height: 22rem;
+    width: 22rem;
     border-radius: 0.3rem;
 }
 
