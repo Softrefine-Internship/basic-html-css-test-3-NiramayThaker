@@ -39,7 +39,9 @@
     display: flex;
     gap: 0.2rem;
     justify-content: center;
+    margin-right: 1rem;
 }
+
 .dots:hover {
     color: #CDCDCD;
 }
@@ -73,11 +75,12 @@
 }
 
 .abt-me {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
 .me-sec-title {
+    margin-bottom: 2.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,4 +90,33 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.abt-margin {
+    margin: 2rem 0;
+    color: #CDCDCD;
+}
+
+.abt-info {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;   
+}
+
+.abt-key {
+    text-transform: uppercase; 
+    font-size: 1.2rem;
+    color: #CDCDCD;
+    font-weight: bold;
+}
+
+.abt-value {
+    font-size: 1.2rem;
+    color: #1A1A1A;
 }
