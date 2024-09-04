@@ -7,6 +7,12 @@
     grid-template-columns: 0.3fr 1fr;
 }
 
+
+/***********************/
+/* SIDE BAR SECTION */
+/***********************/
+
+
 .abt-family {
     grid-column: 1;
     /* margin-left: 3rem;
@@ -118,5 +124,317 @@
 
 .abt-value {
     font-size: 1.2rem;
+    color: #1a1a1acc;
+    font-weight: bold;
+}
+
+
+/***********************/
+/* NAVBAR SECTION */
+/***********************/
+
+
+.base-nav {
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    gap: 2.4rem;
+    border-bottom: 0.1rem solid #CDCDCD;
+    padding-inline: 2rem;
+    margin: 1rem 0;
+}
+
+.base-nav-margin {
+    margin-top: 0.1rem;
+}
+
+.center-sec {
+    grid-column: 2;
+}
+
+.nav-link {
+    color: #CDCDCD;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in;
+}
+
+.nav-link:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: 0.3rem solid #FCA424;
+    z-index: 9999;
     color: #1A1A1A;
+}
+
+.nav-link:hover {
+    color: #1A1A1A;
+    border-bottom: 0.3rem solid #FCA424;
+}
+
+.nav-ele {
+    padding: 2rem 0;
+}
+
+.home-icn {
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+}
+
+.nav-btn {
+    margin-left: auto;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0DD39D;
+}
+
+.claim-btn {
+    text-transform: uppercase;
+    background-color: #0DD39D;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 0.3rem;
+    transition: all 0.3s ease-in;
+    justify-content: center;
+    align-items: center;
+}
+
+.claim-btn:hover {
+    background-color: #075f48;
+}
+
+.claim-icn {
+    height: 1.4rem;
+    width: 1.4rem;
+    color: #fff;
+}
+
+
+/***********************/
+/* CLAIM SECTION */
+/***********************/
+
+.show-claims {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1.8rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.claims {
+    overflow-x: hidden;
+    height: 11rem;
+    display: flex;
+    padding: 2rem;
+    flex: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.claims:hover {
+    transform: scale(1.1);
+}
+
+.claim-num {
+    font-size: 4rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.claim-margin {
+    margin: 0 1.2rem;
+}
+
+.claim-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.claim-img {
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    margin-left: -1.2rem;
+    border: 0.3rem solid #fff;
+}
+
+.claim-img:first-child {
+    margin-left: 0;
+}
+
+.claim-imgs {
+    display: flex;
+}
+
+.claim-type {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #CDCDCD;
+}
+
+.claim-img:last-child,
+.etc {
+    height: 3rem;
+    width: 3rem;
+    background-color: #0dd39ead;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: -3.2rem;
+    color: #fff;
+}
+
+
+/***********************/
+/* CLIENTS SECTION */
+/***********************/
+
+.clients-info {
+    padding: 2.2rem;
+}
+
+.client {
+    position: relative;
+    display: flex;
+    gap: 1.6rem;
+    width: 53.5rem;
+    padding: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.client:hover {
+    box-shadow: rgba(0, 0, 0, 0.486) 0px 4px 12px;
+}
+
+.client-info-icn {
+    height: 1.6rem;
+    width: 1.6rem;
+    stroke: #a59e9e;
+}
+
+.client-img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.client-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.client-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1a1a1adc;
+}
+
+.client-key {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a1a1a9e;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.client-value {
+    font-size: 1.2rem;
+}
+
+.client-value {
+    color: #CDCDCD;
+    font-weight: bold;
+}
+
+.client-points {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pay-btn {
+    width: 7rem;
+    position: absolute;
+    background-color: #FCA424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1.1rem;
+    bottom: 1.6rem;
+    right: 1.6rem;
+    color: #fff;
+    border-radius: 0.3rem;
+    transition: all 0.2s ease-in;
+}
+
+.pay-btn:hover {
+    background-color: #c47a0b;
+}
+
+.pay-icn {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.clients-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+/********************/
+/* ACTIVITY SECTION */
+/********************/
+
+
+.activity-sec {
+    position: absolute;
+    top: 26.2rem;
+    right: 4.4rem;
+    width: 25rem;
+    height: 106%;
+    padding: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.act-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a59e9e;
+}
+
+.activity-margin {
+    margin: 1.2rem 0;
+    color: #CDCDCD;
 }

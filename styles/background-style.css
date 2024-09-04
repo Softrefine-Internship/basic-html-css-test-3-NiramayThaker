@@ -96,8 +96,8 @@ html {
     height: 1.8rem;
     width: 1.8rem;
     position: absolute;
-    right: 20%;
-    bottom: 40%;
+    right: 3%;
+    bottom: 50%;
     border: 0.4rem solid rgba(121, 117, 111, 0.432);
     transform: rotate(20deg);
 }

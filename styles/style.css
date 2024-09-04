@@ -57,7 +57,7 @@
     font-size: 1.1rem;
     font-weight: bold;
     color: #fff;
-    transition: all 0.9;
+    transition: color 0.2s ease-in;
 }
 
 .firm-name:hover {
@@ -81,7 +81,7 @@
     color: rgba(255, 255, 255, 0.89);
     border: none;
     opacity: .7;
-    transition: all 0.9;
+    transition: all 0.3s ease-in;
 }
 
 .help-btn:hover {
@@ -95,6 +95,7 @@
     stroke: transparent;
     position: relative;
     cursor: pointer;
+    transition: color 0.5s ease;
 }
 
 .notification:hover {
@@ -125,7 +126,7 @@
     width: 2.6em;
     border-radius: 0.3rem;
     cursor: pointer;
-    transition: all 0.9;
+    transition: all 0.3s ease-in;
 }
 
 .title-info {
@@ -236,6 +237,7 @@
     color: #fff;
     font-weight: bold;
     text-align: center;
+    transition: all 0.3s ease-in;
 }
 
 .com-btn:hover {
