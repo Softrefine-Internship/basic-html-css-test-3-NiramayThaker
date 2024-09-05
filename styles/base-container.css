@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
 .base-container {
     width: 100%;
     position: absolute;
@@ -16,7 +18,7 @@
     grid-column: 1;
     height: 106vh;
     justify-content: center;
-    border-right: 0.1em solid #CDCDCD;
+    border-right: 0.1em solid #cdcdcd93;
     padding: 0 3.2rem;
     padding-top: 6rem ;
 }
@@ -29,7 +31,7 @@
 
 .img-margin {
     margin: 2rem 0;
-    border: 0.1rem solid #CDCDCD;
+    border: 0.1rem solid #cdcdcd93;
 }
 
 .family-title {
@@ -104,7 +106,7 @@
 
 .abt-margin {
     margin: 2rem 0;
-    color: #CDCDCD;
+    border: 0.1rem solid #cdcdcd93;
 }
 
 .abt-info {
@@ -246,7 +248,8 @@
 }
 
 .claims:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    box-shadow: rgba(0, 0, 0, 0.486) 0px 4px 12px;
 }
 
 .claim-num {
@@ -255,10 +258,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .claim-margin {
     margin: 0 1.2rem;
+    border: 0.1rem solid #cdcdcd93;
 }
 
 .claim-detail {
@@ -435,7 +443,7 @@
 
 .activity-margin {
     margin: 1.2rem 0;
-    color: #CDCDCD;
+    border: 0.1rem solid #cdcdcd93;
 }
 
 .act {
@@ -451,14 +459,6 @@
 
 .act:hover {
     color: rgb(0, 72, 255);
-}
-
-.act:nth-child(2):hover {
-    color: #FCA424;
-}
-
-.act:nth-child(3):hover {
-    color: rgb(8, 164, 8);
 }
 
 .act-sub-title {
@@ -505,11 +505,15 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    height: 38rem;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #FCA424 #fff;
 }
 
 .client-act-history::before {
     content: "";
-    height: 35rem;
+    height: 36rem;
     width: 0.1rem;
     top: 7.7rem;
     left: 2.1rem;

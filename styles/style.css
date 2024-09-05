@@ -9,6 +9,11 @@
     box-shadow: rgba(50, 50, 93, 0.13) 1rem 1rem 3rem -5px, rgba(0, 0, 0, 0.3) 0px 8px 20px -8px;
 }
 
+img {
+    cursor: pointer;
+    object-fit: cover;
+}
+
 .header {
     height: 20rem;
     overflow: hidden;
