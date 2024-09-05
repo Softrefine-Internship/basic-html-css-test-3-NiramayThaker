@@ -506,9 +506,26 @@
     flex-direction: column;
     gap: 1.5rem;
     height: 38rem;
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: #FCA424 #fff;
+    overflow-y: scroll; 
+}
+
+.client-act-history::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.client-act-history::-webkit-scrollbar-track {
+    background: white;   
+    border-radius: 3px;
+}
+
+.client-act-history::-webkit-scrollbar-thumb {
+    background-color: #FCA424;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+
+.client-act-history::-webkit-scrollbar-thumb:hover {
+    background-color: #e6951c;
 }
 
 .client-act-history::before {
