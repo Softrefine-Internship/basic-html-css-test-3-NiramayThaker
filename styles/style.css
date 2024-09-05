@@ -1,6 +1,6 @@
 .main-container {
     width: 120rem;
-    height: 140vh;
+    height: 145vh;
     background-color: #fff;
     position: absolute;
     top: 5%;
@@ -163,6 +163,7 @@
 .progress {
     margin-left: auto;
     margin-right: 3rem;
+    margin-top: -2.4rem;
     display: flex;
     height: 12rem;
     width: 25rem;
@@ -208,7 +209,6 @@
 
 .prog-title {
     width: 60%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,6 +243,32 @@
 .com-btn:hover {
     cursor: pointer;
     background-color: #c47a0b;
+}
+
+.camera-icn-div {
+    height: 2.8rem;
+    width: 2.8rem;
+    position: absolute;
+    top: 23.5rem;
+    right: 3.2rem;
+    z-index: 100;
+    background-color: rgba(146, 137, 137, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.camera-icn {
+    height: 1.8rem;
+    width: 1.8rem;
+    stroke: #e6d4d4;
+}
+
+.camera-icn-div:hover {
+    background-color: rgba(0, 0, 0, 0.448);
 }
 
 .profile-img {
